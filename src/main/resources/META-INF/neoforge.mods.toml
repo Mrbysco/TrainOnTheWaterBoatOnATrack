@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+issueTrackerURL="https://github.com/Mrbysco/TrainOnTheWaterBoatOnATrack/issues"
+license="MIT"
+
+[[mods]]
+modId="trainonthewaterboatonatrack"
+version="${file.jarVersion}"
+displayName="Train On The Water Boat On A Track"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/train-on-the-water-boat-on-a-track"
+authors="Mrbysco"
+description='''
+Yesterday I learned the difference between a minecart and a boat. I wrote this mod before that.
+'''
+[[dependencies.trainonthewaterboatonatrack]]
+modId="minecraft"
+type="required"
+versionRange="[1.21,1.22)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.trainonthewaterboatonatrack]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.1,)"
+ordering="NONE"
+side="BOTH"
